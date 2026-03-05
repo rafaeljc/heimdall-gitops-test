@@ -6,9 +6,9 @@ resources:
 - certificate.yaml
 - cluster-secret-store.yaml
 - external-secret.yaml
-- migration-job.yaml
+#- migration-job.yaml
 - service-public.yaml
-- ../../../../../../migrations
+#- ../../../../../../migrations
 
 patches:
 - path: deployment-patch.yaml
