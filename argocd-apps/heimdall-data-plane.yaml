@@ -15,9 +15,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/rafaeljc/heimdall.git'
+    repoURL: 'https://github.com/rafaeljc/heimdall-gitops-test.git'
     targetRevision: HEAD
-    path: infra/gitops/workloads/data-plane/overlays/prod
+    path: workloads/data-plane/overlays/prod
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: heimdall-prod

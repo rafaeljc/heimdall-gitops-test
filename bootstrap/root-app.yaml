@@ -11,10 +11,10 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/rafaeljc/heimdall.git'
+    repoURL: 'https://github.com/rafaeljc/heimdall-gitops-test.git'
     targetRevision: HEAD
     # The Root App strictly monitors the ArgoCD apps directory
-    path: infra/gitops/argocd-apps
+    path: argocd-apps
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: argocd

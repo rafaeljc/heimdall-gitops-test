@@ -15,10 +15,10 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/rafaeljc/heimdall.git'
+    repoURL: 'https://github.com/rafaeljc/heimdall-gitops-test.git'
     targetRevision: HEAD
     # Points to the environment-specific Kustomize overlay
-    path: infra/gitops/workloads/control-plane/overlays/prod
+    path: workloads/control-plane/overlays/prod
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: heimdall-prod
